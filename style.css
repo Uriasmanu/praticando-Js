@@ -1,0 +1,40 @@
+.frame{
+    background: #5cc05c;
+    position:absolute;
+    width: 400px;
+    height: 400px;
+    top:50%;
+    left:50%;
+    margin-top: -200px;
+    margin-left: -200px;
+    border-radius: 2px;
+    box-shadow: 2px 2px 7px 7px rgba(0, 0,0, 0.3);
+}
+
+.center{
+    display: flex;
+    justify-content: center;
+    margin-top: 40%;
+}
+
+.button{
+    overflow: hidden;
+    background: #68a966;
+	border: 2px;
+    border-radius: 5px;
+    width: 100px;
+    height: 70px;
+    font-size: 1em;
+   
+}
+
+.button:hover{
+   background: yellow;
+   border: solid 1px black;
+   transition: ease-in-out 0.5s;
+   font-size: 20px;
+    box-shadow:10px 12px 15px 2px rgb(0 0 0 / 30%);
+    width: 150px;
+    height: 70px;
+
+}
